@@ -1,0 +1,20 @@
+get http://localhost:5000/user
+
+###
+
+POST http://localhost:5000/user/login
+Content-Type: application/json
+
+{
+    "username":"nguyentrungquang",
+    "password":"123"
+}
+###
+
+POST http://localhost:5000/user/register
+Content-Type: application/json
+
+{
+    "username":"nguyentrungquang",
+    "password":"123"
+}
